@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wunderlust Travel</title>
+</head>
+<body>
+
+    <!-- Skip to main content link for accessibility -->
+    <a href="#main-content" class="skip-to-main">Skip to Main Content</a>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Wunderlust Travel</h1>
+        <picture>
+            <source srcset="images/logo-S.png 320w, images/logo-M.png 780w, images/logo-L.png 1024w" sizes="(max-width: 1024px) 100vw, 1024px">
+            <img src="images/logo-L.png" alt="Wunderlust Travel Logo">
+        </picture>
+        <p>Let Wunderlust Travel help you plan the trip of your dreams!</p>
+        <nav>
+            <ul>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#details">About Your Destination</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main id="main-content">
+
+        <!-- Destination Section -->
+        <section id="destinations">
+            <h2>Destinations</h2>
+            <article>
+                <h3>Majorca</h3>
+                <p>Discover the stunning beauty of Majorca with its turquoise waters and golden sands.</p>
+                <picture>
+                    <source srcset="images/majorca-waves-S.png 320w, images/majorca-waves-M.png 780w, images/majorca-waves-L.png 1024w" sizes="(max-width: 1024px) 100vw, 1024px">
+                    <img src="images/majorca-waves-L.png" alt="Waves crashing on Majorca beach">
+                </picture>
+            </article>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials">
+            <h2>Testimonials</h2>
+
+            <article>
+                <h3>Miranda Blake</h3>
+                <picture>
+                    <img src="images/miranda-blake-L.png" alt="Miranda Blake">
+                </picture>
+                <p>Traveling From: London, England</p>
+                <blockquote>“I traveled here for business, but my stay was extended. Now it is my home.”</blockquote>
+            </article>
+
+            <article>
+                <h3>Max Winter</h3>
+                <picture>
+                    <img src="images/max-winter-L.png" alt="Max Winter">
+                </picture>
+                <p>Traveling From: Berlin, Germany</p>
+                <blockquote>“Great escape from my reality. Beautiful sunsets, wonderful people, great beer.”</blockquote>
+            </article>
+
+            <article>
+                <h3>Inés Villegoes</h3>
+                <picture>
+                    <img src="images/ines-villegoes-S.png" alt="Inés Villegoes">
+                </picture>
+                <p>Traveling From: Barcelona, Spain</p>
+                <blockquote>“A very safe environment for all travelers.”</blockquote>
+            </article>
+
+            <article>
+                <h3>Carmen Lorenzo</h3>
+                <p>Traveling From: Madrid, Spain</p>
+                <blockquote>“Live, laugh, love-- everything you need in Majorca.”</blockquote>
+            </article>
+        </section>
+
+        <!-- About Your Destination Section -->
+        <section id="details">
+            <h2>About Your Destination</h2>
+
+            <div>
+                <h3>Size</h3>
+                <p>1,405 miles squared</p>
+            </div>
+
+            <div>
+                <h3>Elevation</h3>
+                <p>4,741 feet</p>
+            </div>
+
+            <div>
+                <h3>Location</h3>
+                <p>Mediterranean</p>
+            </div>
+
+            <div>
+                <h3>Population</h3>
+                <p>923,608</p>
+            </div>
+        </section>
+
+        <!-- Contact Us Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+
+            <form action="#" method="post">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" placeholder="Enter first name" required>
+
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name" placeholder="Enter last name" required>
+
+                <label for="contact-method">Contact Method</label>
+                <select id="contact-method" name="contact-method">
+                    <option>Email</option>
+                    <option>Text</option>
+                    <option>Phone</option>
+                </select>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter Email" required>
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter telephone number">
+
+                <label for="destination">Destination</label>
+                <select id="destination" name="destination">
+                    <option>Barcelona</option>
+                    <option>Granada</option>
+                    <option>Ibiza</option>
+                    <option>Madrid</option>
+                    <option>Majorca</option>
+                    <option>Seville</option>
+                    <option>Tenerife</option>
+                    <option>Valencia</option>
+                </select>
+
+                <label for="travel-time">Travel Time</label>
+                <select id="travel-time" name="travel-time">
+                    <option>Fall</option>
+                    <option>Winter</option>
+                    <option>Spring</option>
+                    <option>Summer</option>
+                    <option>Flexible</option>
+                </select>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Wunderlust Travel. All rights reserved.</p>
+        <a href="#">Privacy Statement</a> | <a href="#">Terms of Service</a>
+    </footer>
+
+</body>
+</html>
